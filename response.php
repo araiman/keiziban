@@ -1,7 +1,7 @@
 <?php
     //データベースへの接続
     try{
-        $dbh =new PDO('mysql:host=us-cdbr-iron-east-01.cleardb.net;dbname=heroku_cc3268ea0ea6074','bd6be7d7aab25d','13741467');
+        $dbh =new PDO('mysql:host=us-cdbr-iron-east-01.cleardb.ne;dbname=heroku_6eed521c7bf0f9d;charset=utf8','b483fab2394946:b6a0e0f8','b6a0e0f8');
      } catch (Exception $e) {
         var_dump($e->getMessage());
         exit;
